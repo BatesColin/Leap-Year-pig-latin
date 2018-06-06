@@ -41,15 +41,16 @@ function wordSplit(word) {
   var cloneWord = word;
 
   console.log(splitWord);
-  return vowelCheck(splitWord);
+  return vowelCheck(splitWord,cloneWord);
 }
-function vowelCheck(vowel){
+function vowelCheck(vowel,cloneWord){
   alert(vowel[0]);
   var vowels = ['a', 'e', 'i', 'o', 'u'];
   if(vowel[0] === vowels[0] || vowel[0] === vowels[1] || vowel[0] === vowels[2] || vowel[0] === vowels[3] || vowel[0] === vowels[4]){
-    alert("Vowel");
+    cloneWord += "way";
+    alert(cloneWord);
   }else{
-
+    alert("Not a vowel");
   }
 
 
