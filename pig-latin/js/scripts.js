@@ -28,23 +28,41 @@ function translateWords(sentance) {
   var originalSentance = sentance.split(" ");
   console.log(originalSentance);
 
-  for(index = 0; index < originalSentance.length; index++){
+  for(var index = 0; index < originalSentance.length; index++){
     originalSentance[index] = wordSplit(originalSentance[index]);
   }
   console.log(originalSentance);
 }
 
 function wordSplit(word) {
+  debugger;
   console.log(word);
   var splitWord = word.split('');
+  var cloneWord = word;
 
   console.log(splitWord);
-  forEach()(splitWord))
+  return vowelCheck(splitWord);
 }
 function vowelCheck(vowel){
-(['a', 'e', 'i', 'o', 'u'])
-};
-//function vowelCheck(word){
+  alert(vowel[0]);
+  var vowels = ['a', 'e', 'i', 'o', 'u'];
+  if(vowel[0] === vowels[0] || vowel[0] === vowels[1] || vowel[0] === vowels[2] || vowel[0] === vowels[3] || vowel[0] === vowels[4]){
+    alert("Vowel");
+  }else{
+
+  }
+
+
+
+
+}
+
+//  if (vowel[0] !=== vowels[countStep]) {
+//    push vowel{
+//      if vowel = vowels
+//    }
+//  }
+  //function vowelCheck(word){
   //
   //if(//single letter word begins with vowel, add ay){
 
