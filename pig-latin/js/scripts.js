@@ -41,9 +41,9 @@ function wordSplit(word) {
   var cloneWord = word;
 
   console.log(splitWord);
-  return vowelCheck(splitWord,cloneWord);
+  return vowelCheck(splitWord, cloneWord);
 }
-function vowelCheck(vowel,cloneWord){
+function vowelCheck(vowel, cloneWord){
   alert(vowel[0]);
   var vowels = ['a', 'e', 'i', 'o', 'u'];
   if (vowel[0] === vowels[0] || vowel[0] === vowels[1] || vowel[0] === vowels[2] || vowel[0] === vowels[3] || vowel[0] === vowels[4]){
@@ -56,6 +56,13 @@ function vowelCheck(vowel,cloneWord){
     }
   } else {
     alert("not a vowel")
+  }
+}
+
+function consonantCheck(splitWord, cloneWord, vowels){
+  var countStep = 0;
+  while (cloneWord.length <= countStep) {
+    if ()
   }
 
 
