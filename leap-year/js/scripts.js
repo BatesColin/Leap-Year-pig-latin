@@ -17,6 +17,14 @@ $(document).ready(function(){
     //Call leap year function, pass the year var as an argument, assign the return values
     //to the variable result
     var result = leapYear(year);
-    $("#result").text(result);
-  })
+
+    $(".year").text(year);
+
+    if (!result) {
+      $(".not").text("not");
+    } else {
+      $(".not").text("");
+    }
+    $("#result").show();
+  });
 });
