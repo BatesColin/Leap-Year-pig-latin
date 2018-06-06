@@ -46,11 +46,16 @@ function wordSplit(word) {
 function vowelCheck(vowel,cloneWord){
   alert(vowel[0]);
   var vowels = ['a', 'e', 'i', 'o', 'u'];
-  if(vowel[0] === vowels[0] || vowel[0] === vowels[1] || vowel[0] === vowels[2] || vowel[0] === vowels[3] || vowel[0] === vowels[4]){
-    cloneWord += "way";
-    alert(cloneWord);
-  }else{
-    alert("Not a vowel");
+  if (vowel[0] === vowels[0] || vowel[0] === vowels[1] || vowel[0] === vowels[2] || vowel[0] === vowels[3] || vowel[0] === vowels[4]){
+    if (cloneWord.length === 1){
+      cloneWord += "ay";
+      alert(cloneWord);
+    }else{
+      cloneWord += "way";
+      alert(cloneWord);
+    }
+  } else {
+    alert("not a vowel")
   }
 
 
