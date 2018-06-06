@@ -9,6 +9,28 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="jumbotron">
+            <h1>Pig latin translator</h1>
+          </div>
+        </div>
+      </div> <!-- Headding -->
+      <div class="row"> <!-- Input form -->
+        <div class="col-xs-12 col-s-12 col-md-12 col-lg-12">
+          <form id="pigLatinForm">
+            <label for="sentenceInput">Enter Pig Latin Here</label>
+            <input type="text" id="sentenceInput">
+            <button type="submit" name="submitButton" class="btn btn-primary">Make this sentence Pig Latin</button>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p><span id="returnPigLatin"></span></p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
