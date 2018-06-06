@@ -1,0 +1,9 @@
+Pretend you have an application that counts the number of vowels in a string. This application has specs detailing each behavior it must exhibit. However, they're out of order! Reorder the following list of specs from the simplest possible behavior to the most complex behavior with your partner. Consult with other pairs, if necessary:
+*The program ignores non-alphabetical characters, since they cannot be vowels
+*The program recognizes a single vowel
+*the program recognizes a single vowel, regardless of case
+*the program recognizes a single vowel in a multiple-character word
+*the program recognizes multiple vowels in a single word
+*the program recognizes vowels in a multiple-word sentence
+*the program recognizes vowels in a multiple-word sentence, regardless of capitalization
+*the program recognizes vowels in a multiple-word sentence, regardless of inconsistent capitalization

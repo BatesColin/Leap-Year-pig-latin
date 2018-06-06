@@ -2,7 +2,7 @@
 
 #### _Practice classwork, June 6th, 2018_
 
-#### By _**James Hanley - **_
+#### By _**James Hanley and Colin Bates **_
 
 ## Description
 
@@ -19,7 +19,7 @@ _No Known Bugs_
 ## Support and contact details
 
 _James Hanley email: hanley.doth@outlook.com_
-
+_Colin Bates email: Dragonflylorlord@gmail.com_
 ## Technologies Used
 
 _JavaScript, Jquery, Bootstrap._
